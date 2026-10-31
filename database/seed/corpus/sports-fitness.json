@@ -1,0 +1,372 @@
+[
+  {
+    "corpus_id": "sport-ym-001",
+    "product_slug": "coreflex-yoga-mat",
+    "title": "Grip holds up even in sweaty sessions",
+    "text": "I do power yoga five mornings a week and my old mat used to turn into a slip-n-slide by the second round of sun salutations. This one actually grips better as my palms get sweaty, which I did not expect. The 6mm thickness is a big relief for my knees in low lunges and cat-cow. There was a rubbery smell for the first two or three days, I left it unrolled on the balcony and it went away. No peeling or marks after about two months of daily use.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "sport-ym-002",
+    "product_slug": "coreflex-yoga-mat",
+    "title": null,
+    "text": "Zero slipping, even in a 40 minute hot flow.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "sport-ym-003",
+    "product_slug": "coreflex-yoga-mat",
+    "title": "Value for money mat",
+    "text": "Bought this after comparing with mats twice the price. Cushioning is good, the anti-slip texture works on my tiled floor and it rolls up tight with the strap. Value for money, honestly.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "value-for-money", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "sport-ym-004",
+    "product_slug": "coreflex-yoga-mat",
+    "title": null,
+    "text": "Does what a yoga mat should do.",
+    "intended_stars": 5,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [],
+    "style": ["short", "exception-terse-5star"]
+  },
+  {
+    "corpus_id": "sport-ym-005",
+    "product_slug": "coreflex-yoga-mat",
+    "title": "Good for knees",
+    "text": "My physio asked me to do floor exercises at home and kneeling on the thinner mat I had was painful. This one has enough cushion that I can hold planks and bird-dogs without my knees complaining. Took a day to lie completely flat.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "comfort", "polarity": "POSITIVE" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "sport-ym-006",
+    "product_slug": "coreflex-yoga-mat",
+    "title": "Great grip, but a dust magnet",
+    "text": "Grip is excellent and it doesn't bunch up under my feet in warrior poses. Downside is the surface picks up every bit of dust and my cat's hair, and wiping it leaves it sticky for a while. Also smelled like a tyre shop for the first week.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "sport-ym-007",
+    "product_slug": "coreflex-yoga-mat",
+    "title": "Beginner's review after 3 months",
+    "text": "Im a complete beginner and started yoga at home during the summer holidays with my daughter. We share this mat and it has held up really well, no tearing at the corners even though we roll and unroll it alot. It is thick enough for surya namaskar on a marble floor. Only reason for 4 stars is that the edges curled slightly in the first week, I had to roll it the opposite way overnight to fix it. For a home user like me this is more than enough.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "typo"]
+  },
+  {
+    "corpus_id": "sport-ym-008",
+    "product_slug": "coreflex-yoga-mat",
+    "title": null,
+    "text": "It's fine for slow yoga and stretching. For HIIT and jumping workouts it feels thinner than 6mm and I can feel the floor. Colour is as shown.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "comfort", "polarity": "NEUTRAL" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "sport-db-001",
+    "product_slug": "irongrip-adjustable-dumbbells",
+    "title": "Replaced my gym membership",
+    "text": "I cancelled my gym membership after the lockdown habits stuck and bought the IronGrip set instead. Switching from 5kg to 12.5kg takes maybe 20 seconds once you get used to the spin collars, and the plates sit snug with no clanking during rows. Knurling on the handle is grippy without tearing my palms. I've been doing shoulder press, goblet squats and curls three times a week for four months and nothing has loosened. If you are short on space and want progressive load at home, go for it.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "idiom", "mentions-product"]
+  },
+  {
+    "corpus_id": "sport-db-002",
+    "product_slug": "irongrip-adjustable-dumbbells",
+    "title": null,
+    "text": "Plates fit tight, no rattle. Very happy.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "build-quality", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "sport-db-003",
+    "product_slug": "irongrip-adjustable-dumbbells",
+    "title": "Few annoyances but still worth it",
+    "text": "The handle rod is longer than I'd like, so the inner plates knock my thighs during curls. Paint chipped off two plates in the first month and the threads need wiping or the collar gets stiff. Still, for home workouts at this price it's worth buying.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "NEGATIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "exception-mostly-complaints-4star"]
+  },
+  {
+    "corpus_id": "sport-db-004",
+    "product_slug": "irongrip-adjustable-dumbbells",
+    "title": "Good set, wrong plates shipped",
+    "text": "Solid build and the locking collar feels safe even for overhead presses. Giving 2 stars only because the 20kg set arrived with 17.5kg worth of plates. Seller did replace it but took almost two weeks.",
+    "intended_stars": 2,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "delivery", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "exception-positive-text-low-stars"]
+  },
+  {
+    "corpus_id": "sport-db-005",
+    "product_slug": "irongrip-adjustable-dumbbells",
+    "title": "Collar came loose mid-set",
+    "text": "Please be careful with this one. During my third set of overhead presses the locking collar on the left side spun loose and two plates slid off, missing my foot by inches. I checked afterwards and the thread on the rod is shallow, the collar only bites for about one and a half turns. I tightened it properly the next day and it loosened again after twenty reps. For something that goes over your head this is not acceptable. Requested a return.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "build-quality", "polarity": "NEGATIVE" }],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "sport-db-006",
+    "product_slug": "irongrip-adjustable-dumbbells",
+    "title": null,
+    "text": "Threads got stripped within a month. Dont buy.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "durability", "polarity": "NEGATIVE" }],
+    "style": ["short", "typo"]
+  },
+  {
+    "corpus_id": "sport-db-007",
+    "product_slug": "irongrip-adjustable-dumbbells",
+    "title": "Rust spots out of the box",
+    "text": "The carton was torn open on one side when it arrived and the plates were just loose inside with no wrapping. Three of the plates already had brown rust spots and one handle had a dent in the knurling. I raised a return the same evening, the pickup was cancelled twice without any call and support kept sending the same copy-paste reply. Got my refund after 18 days. Maybe I got a bad unit but the whole experience was frustrating.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "sport-hm-001",
+    "product_slug": "velocita-cycling-helmet",
+    "title": "Cool head on long rides",
+    "text": "Used the Velocita helmet on three 40 km Sunday rides so far. The vents really do keep my head cooler than my old one and the dial at the back is easy to adjust even with gloves on. Looks a little bulky in photos but I care more about safety.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "mentions-product"]
+  },
+  {
+    "corpus_id": "sport-rb-001",
+    "product_slug": "flexband-resistance-set",
+    "title": "Perfect for hotel room workouts",
+    "text": "I travel for work almost every week and these fit in a small pouch in my laptop bag. Five levels is enough for rows, presses and leg work. Full value for money, nothing else comes close at this price.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "sport-rb-002",
+    "product_slug": "flexband-resistance-set",
+    "title": null,
+    "text": "Good resistance range and the handles are comfy.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" }
+    ],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "sport-rb-003",
+    "product_slug": "flexband-resistance-set",
+    "title": "Bands good, door anchor not so much",
+    "text": "The bands themselves are good quality, the tension is consistent and they haven't lost stretch in two months. The door anchor is the weak link, the foam strap started tearing within weeks and I'm scared it will slip and smack me in the face, so now I tie the band to my bed leg instead. Would have been 5 stars with a better anchor.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "durability", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "sport-rb-004",
+    "product_slug": "flexband-resistance-set",
+    "title": null,
+    "text": "My physiotherapist recommended bands for knee rehab and these work fine for that. If you are already lifting weights, even the heaviest black band will feel light.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "performance", "polarity": "NEUTRAL" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "sport-rb-005",
+    "product_slug": "flexband-resistance-set",
+    "title": null,
+    "text": "Tension holds up and the metal clips feel strong. But the latex smell is very strong when new and the colours rubbed off on my hands the first few days.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "sport-rb-006",
+    "product_slug": "flexband-resistance-set",
+    "title": "Snapped and hit my arm",
+    "text": "The green band snapped near the clip on my fifth squat of the day and whipped my forearm, left a red welt for two days. Had been using it barely three weeks. Won't trust the others now.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "sport-bt-001",
+    "product_slug": "hydrasteel-insulated-bottle",
+    "title": "Ice for 20 hours, no kidding",
+    "text": "Filled it with ice and water at 7 am before a road trip, left it in a parked car in Chennai heat for most of the afternoon, and there was still ice rattling inside at 3 am the next morning when we reached. The lid seal is leak-proof, I keep it sideways in my backpack with my laptop and not a drop has come out. The powder coat hasn't scratched much either. Superb bottle, my husband has already taken it over.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "idiom"]
+  },
+  {
+    "corpus_id": "sport-bt-002",
+    "product_slug": "hydrasteel-insulated-bottle",
+    "title": null,
+    "text": "Ice still there next morning 🧊 love it",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short", "emoji"]
+  },
+  {
+    "corpus_id": "sport-bt-003",
+    "product_slug": "hydrasteel-insulated-bottle",
+    "title": null,
+    "text": "Keeps chai hot till evening. Bit heavy when full.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "sport-bt-004",
+    "product_slug": "hydrasteel-insulated-bottle",
+    "title": "Came dented, poor packing",
+    "text": "Arrived with a big dent near the base, packed in a thin polybag with no bubble wrap at all. Seller wanted an unboxing video before replacing it, which I obviously did not have. Bottle works but I paid for a new one, not a dented one.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "delivery", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "exception-service-not-product"]
+  },
+  {
+    "corpus_id": "sport-rk-001",
+    "product_slug": "smash-pro-badminton-racket",
+    "title": "Big upgrade from aluminium",
+    "text": "Moved up to the Smash Pro from an aluminium racket and the difference is huge. It's light enough that my wrist doesn't tire after an hour of doubles, and the slightly head-heavy balance gives my smashes real punch. Factory strings were around 22 lbs, I got it restrung at 26 at the local shop and now the control at the net is excellent. The full cover it comes with is decent too. For the price this is hard to beat for intermediate players.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "mentions-product"]
+  },
+  {
+    "corpus_id": "sport-rk-002",
+    "product_slug": "smash-pro-badminton-racket",
+    "title": "Good racket for club level",
+    "text": "Recieved it in two days with a full-length cover. Swings fast and feels balanced, my clears reach the back line easily now. Grip is slightly thin for my hand so I added an overgrip.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "delivery", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "sport-rk-003",
+    "product_slug": "smash-pro-badminton-racket",
+    "title": null,
+    "text": "Strings came super loose out of the box and the grip tape started peeling within a week. For 2k I expected better finishing.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "NEGATIVE" },
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "value-for-money", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "sport-rk-004",
+    "product_slug": "smash-pro-badminton-racket",
+    "title": "Frame cracked in a month",
+    "text": "One clash with my partner's racket during a doubles rally and there's now a hairline crack at the throat. Strings had already snapped once before that. Graphite should handle a normal clash, not great.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  }
+]

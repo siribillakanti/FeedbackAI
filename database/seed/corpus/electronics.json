@@ -1,0 +1,526 @@
+[
+  {
+    "corpus_id": "elec-hp-001",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": "Best purchase this year for my commute",
+    "text": "I take the metro for almost an hour each way and these have changed that completely. The noise cancelling is strong enough that I can hear announcements only if I switch to ambient mode, which is one tap on the left cup. Sound is warm and detailed, vocals come through clearly and the bass doesn't overpower everything. I wore them for a full 9 hour flight last month and my ears didn't hurt, the cushions are soft and the headband clamp is just right. Battery lasted the flight and then some. I was sceptical about Auralis since I'd never heard of them but no regrets.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "battery-life", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "mentions-name"]
+  },
+  {
+    "corpus_id": "elec-hp-002",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": null,
+    "text": "Superb ANC at this price. Very happy.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "value-for-money", "polarity": "POSITIVE" }],
+    "style": ["short", "idiom"]
+  },
+  {
+    "corpus_id": "elec-hp-003",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": "Comfortable for long work calls",
+    "text": "Bought these for work from home. I'm on calls 5-6 hours a day and they don't press on my glasses at all. Mic picks up my voice clearly, colleagues stopped complaining about the pressure cooker in the background.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "sound-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-hp-004",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": null,
+    "text": "Really solid pair. The app lets you tweak the EQ and I turned down the bass a little, now it sounds much more balanced. Folding hinge feels sturdy. Would have given 5 if the case was smaller.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-hp-005",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": "Pleasantly surprised",
+    "text": "Didn't expect much at under 8k but the build feels premium, matte finish doesn't show fingerprints and the cushions are memory foam. Pairing with my laptop and phone at the same time works without fuss.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-hp-006",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": null,
+    "text": "Finally I can't hear my neighbour's drilling.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "elec-hp-007",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": "Great sound, battery not so much",
+    "text": "The sound quality is honestly great for the price, bass is punchy without getting muddy. Battery backup is the weak point though, with ANC on I'm charging it every second day.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "POSITIVE" },
+      { "aspect": "battery-life", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "elec-hp-008",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": null,
+    "text": "They're fine. Sound is clear, ANC is average, nothing like the premium brands but you're paying a third of the price. Using them mostly at the gym.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "NEUTRAL" },
+      { "aspect": "value-for-money", "polarity": "NEUTRAL" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-hp-009",
+    "product_slug": "auralis-wave-anc-headphones",
+    "title": "Hiss with ANC and poor mic outdoors",
+    "text": "Two problems that made me regret this. First, with noise cancelling on there's a constant faint hiss when nothing is playing, very noticeable in a quiet room at night. Second, the microphone is useless outside, on a call from the street the other person heard more traffic than my voice. Indoors music sounds good, I'll give it that, but I bought ANC headphones for the ANC. Raised a complaint and support just sent me a reset guide I had already tried twice.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "elec-lp-001",
+    "product_slug": "kestrel-book-14",
+    "title": "Three months in, a proper review",
+    "text": "I held off reviewing until I'd used it properly for a semester. Context: I'm a final year engineering student, so it's mostly VS Code, a few Docker containers, MATLAB, Chrome with way too many tabs, and Netflix at night. The i5 with 16 GB handles all of that without slowing down, and the SSD makes boot and app launches basically instant. Battery is the highlight for me. On a normal college day with Wi-Fi on and brightness around 60% I get 8 to 9 hours, so I've stopped carrying the charger. It's also light enough that I don't notice it in my bag. Keyboard has good travel and the backlight has two levels. The screen is sharp but only average outdoors, I'd call it 'fine' rather than great. Speakers are thin, use headphones. The webcam is grainy but fine for online viva calls. For what Kestrel is charging, I honestly don't think there's a better student laptop right now.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "battery-life", "polarity": "POSITIVE" },
+      { "aspect": "display", "polarity": "NEUTRAL" },
+      { "aspect": "camera", "polarity": "NEUTRAL" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "mentions-name"]
+  },
+  {
+    "corpus_id": "elec-lp-002",
+    "product_slug": "kestrel-book-14",
+    "title": null,
+    "text": "Fast, light, and the battery just keeps going.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "battery-life", "polarity": "POSITIVE" }
+    ],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "elec-lp-003",
+    "product_slug": "kestrel-book-14",
+    "title": "Bought for my mother",
+    "text": "My mother uses it for the online classes she teaches and for video calls with family abroad. Setup took ten minutes and she figured out the fingerprint login herself. Webcam is clear enough, she's happy and so am I.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" },
+      { "aspect": "camera", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-lp-004",
+    "product_slug": "kestrel-book-14",
+    "title": "Typing on it all day",
+    "text": "I write for a living and the keyboard is the main reason I picked this one. Keys are quiet with a nice soft bottom, no flex in the middle of the deck. The aluminium lid feels solid and there's barely any wobble when I open it with one hand. Trackpad is accurate though a bit small compared to what I had before. Haven't had a single crash or freeze since I got it in July.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "elec-lp-005",
+    "product_slug": "kestrel-book-14",
+    "title": "Quick machine but the fan gets loud",
+    "text": "Performance is better than I expected from an i5, I edit 1080p videos in DaVinci and exports are reasonable. The problem is noise. As soon as you push it the fan ramps up and it's loud enough that my wife asked if something was wrong with it. Bottom panel also gets quite warm on the lap. For normal browsing it's silent, so if you're not doing heavy work you won't notice. Keeping it, but heads up.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "noise-level", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "elec-lp-006",
+    "product_slug": "kestrel-book-14",
+    "title": null,
+    "text": "Battery life is genuinely good, 7+ hours for me. Screen is the letdown, it's dim and colours look washed out next to my phone. Okay for office work, not for photo editing.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "battery-life", "polarity": "POSITIVE" },
+      { "aspect": "display", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-lp-007",
+    "product_slug": "kestrel-book-14",
+    "title": null,
+    "text": "Solid laptop for the money. No complaints so far.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "value-for-money", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "elec-lp-008",
+    "product_slug": "kestrel-book-14",
+    "title": "Arrived with a cracked corner",
+    "text": "Laptop itself boots and works, but the box was crushed and the lid has a crack near the hinge. It's been 12 days and the replacement request is still 'under review'. Not what you expect on a 55k purchase.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "delivery", "polarity": "NEGATIVE" },
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "exception-delivery-not-product"]
+  },
+  {
+    "corpus_id": "elec-ph-001",
+    "product_slug": "novaphone-8-lite",
+    "title": "That AMOLED screen",
+    "text": "Coming from an LCD phone, the display on this is a huge jump. Deep blacks, smooth scrolling, readable even in afternoon sun. Battery gets me through a full day with around 30% left.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "display", "polarity": "POSITIVE" },
+      { "aspect": "battery-life", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-ph-002",
+    "product_slug": "novaphone-8-lite",
+    "title": null,
+    "text": "Charges from 10 to 80 in half an hour. Love it.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "battery-life", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "elec-ph-003",
+    "product_slug": "novaphone-8-lite",
+    "title": "Heats up alot",
+    "text": "Phone heats up alot while charging and even on long video calls. Camera is ok in daylight but night shots come out grainy. Expected better at this price.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "NEGATIVE" },
+      { "aspect": "camera", "polarity": "NEGATIVE" },
+      { "aspect": "value-for-money", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "elec-ph-004",
+    "product_slug": "novaphone-8-lite",
+    "title": "Good hardware, too much bloatware",
+    "text": "Hardware is good for the price, camera takes nice photos outdoors and 5G works fine in Pune. But it came with eleven preinstalled apps and the lock screen keeps showing ads. Took me an evening to disable everything.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "camera", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-ph-005",
+    "product_slug": "novaphone-8-lite",
+    "title": "Update broke the phone",
+    "text": "Was happy for the first month. Then a system update came, and after installing it the phone started restarting by itself, sometimes four or five times a day. Touch also stops responding randomly. I did a factory reset as the Novaphone service centre suggested and lost my WhatsApp chats in the process, problem still there. They're now saying I have to wait for the next patch. A phone that reboots in the middle of a UPI payment is not usable, simple as that.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed", "mentions-name"]
+  },
+  {
+    "corpus_id": "elec-ph-006",
+    "product_slug": "novaphone-8-lite",
+    "title": null,
+    "text": "worst phone ever, dont waste your money",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "value-for-money", "polarity": "NEGATIVE" }],
+    "style": ["short", "typo"]
+  },
+  {
+    "corpus_id": "elec-ph-007",
+    "product_slug": "novaphone-8-lite",
+    "title": "Paisa vasool phone",
+    "text": "Been using this for four months as my main phone. Gaming is smooth on medium settings, I play BGMI for an hour daily and it only gets slightly warm. The 5000 mAh battery easily lasts a day and a half with my usage, and the charger in the box is the fast one, no need to buy separately. Camera is decent in daylight, portrait mode edge detection is surprisingly good. Speaker is loud. At under 19k this is paisa vasool, recommended it to two friends already.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "battery-life", "polarity": "POSITIVE" },
+      { "aspect": "camera", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "idiom"]
+  },
+  {
+    "corpus_id": "elec-ph-008",
+    "product_slug": "novaphone-8-lite",
+    "title": null,
+    "text": "Upgraded from a four year old phone and everything just feels faster. Fingerprint sensor is quick, face unlock works even in low light. Feels solid in hand, not plasticky at all.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-sw-001",
+    "product_slug": "pulsefit-s2-smartwatch",
+    "title": "Good fitness band for the price",
+    "text": "Step count and sleep tracking match my old fitness band pretty closely. Battery backup is around 8 days with notifications on. Bluetooth calling is usable indoors, voice sounds a bit robotic to the other person.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "battery-life", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "elec-sw-002",
+    "product_slug": "pulsefit-s2-smartwatch",
+    "title": "Strap is the weak link",
+    "text": "The silicone strap gave me a rash on the wrist within a week, had to buy a nylon one separately. The app also logs me out every few days. Still, for 4.5k with SpO2 and calling, it's worth it.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "NEGATIVE" },
+      { "aspect": "ease-of-use", "polarity": "NEGATIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "exception-mostly-complaints-4star"]
+  },
+  {
+    "corpus_id": "elec-sw-003",
+    "product_slug": "pulsefit-s2-smartwatch",
+    "title": null,
+    "text": "Ok for the price. Nothing more, nothing less.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "value-for-money", "polarity": "NEUTRAL" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "elec-sw-004",
+    "product_slug": "pulsefit-s2-smartwatch",
+    "title": "Mixed feelings after two months",
+    "text": "Hardware is honestly decent. The screen is bright, the watch faces look nice, and it survived a full monsoon season of me forgetting to take it off in the rain. What lets it down is the PulseFit app. Syncing fails about half the time and I have to toggle Bluetooth on my phone to get it to connect again. Workout history sometimes vanishes after a sync. If they fix the app with updates this could be a 4 star watch, right now it's average.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "display", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed", "mentions-name"]
+  },
+  {
+    "corpus_id": "elec-sw-005",
+    "product_slug": "pulsefit-s2-smartwatch",
+    "title": "Heart rate not acurate",
+    "text": "Compared it with the pulse oximeter at home and the heart rate was off by 15-20 bpm during walks. Whats the point of a fitness watch if the numbers are wrong.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "NEGATIVE" }],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "elec-sw-006",
+    "product_slug": "pulsefit-s2-smartwatch",
+    "title": null,
+    "text": "Gifted it to my dad, he checks his steps every hour now 👍",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [],
+    "style": ["short", "emoji"]
+  },
+  {
+    "corpus_id": "elec-sp-001",
+    "product_slug": "boomtube-mini-speaker",
+    "title": "Loud for its size",
+    "text": "Sound is surprisingly loud and clear for something this small, took it to the beach and the waterproofing held up fine. But the Bluetooth keeps dropping if my phone is more than a couple of metres away.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-sp-002",
+    "product_slug": "boomtube-mini-speaker",
+    "title": null,
+    "text": "Conection drops constantly. Recieved it yesterday.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "NEGATIVE" }],
+    "style": ["short", "typo"]
+  },
+  {
+    "corpus_id": "elec-sp-003",
+    "product_slug": "boomtube-mini-speaker",
+    "title": null,
+    "text": "It works as a basic bathroom speaker for podcasts. Sound is average, battery lasts a few days with light use. Wouldn't use it for music.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "NEUTRAL" },
+      { "aspect": "battery-life", "polarity": "NEUTRAL" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-sp-004",
+    "product_slug": "boomtube-mini-speaker",
+    "title": null,
+    "text": "Seeing a lot of complaints about pairing, but mine has been fine with an iPhone for two months. Strap is handy for hanging it on the shower rod and the bass is decent.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-sp-005",
+    "product_slug": "boomtube-mini-speaker",
+    "title": "Disconnects, then the warranty runaround",
+    "text": "From day one it disconnected randomly, sometimes in the middle of a song, sometimes when the phone was right next to it. I tried two phones and a laptop, same result, so it's the speaker. Raised a warranty claim and was told to courier it to Bangalore at my own cost. Three weeks later they sent back the same unit with a note saying 'no fault found'. It still disconnects. Not buying anything from this brand again.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "elec-sp-008",
+    "product_slug": "boomtube-mini-speaker",
+    "title": "Fantastic.",
+    "text": "Wow, a speaker that disconnects every ten minutes. Exactly what I wanted for a house party.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "NEGATIVE" }],
+    "style": ["short", "sarcasm-known-model-weakness"]
+  },
+  {
+    "corpus_id": "elec-eb-001",
+    "product_slug": "auralis-buds-air",
+    "title": "Value for money, go for it",
+    "text": "For under 3k the sound is really good, clear vocals and decent bass. Case is small enough for the coin pocket of my jeans. If you don't want to spend a lot, go for it.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "elec-eb-002",
+    "product_slug": "auralis-buds-air",
+    "title": null,
+    "text": "Battery lasts me the whole week of commuting.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "battery-life", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "elec-eb-003",
+    "product_slug": "auralis-buds-air",
+    "title": "Great battery, loose fit",
+    "text": "Charging the case maybe once a week is all it needs, battery life is excellent. The fit is the issue, the left bud keeps slipping out when I run, even with the large tips. Fine for desk use.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "battery-life", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "elec-eb-004",
+    "product_slug": "auralis-buds-air",
+    "title": null,
+    "text": "Average earbuds. They do what they should.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "elec-eb-005",
+    "product_slug": "auralis-buds-air",
+    "title": "Good for music, bad for calls",
+    "text": "Music sounds pleasant on the Buds Air, a little bass heavy but I like that. Touch controls take some getting used to, I kept pausing songs by accident while adjusting them. Calls are where they fall apart. Anywhere with wind or traffic the other person can barely hear me. Also the case hinge already feels loose after two months, it doesn't snap shut the way it did at first.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "sound-quality", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "NEGATIVE" },
+      { "aspect": "durability", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed", "mentions-name"]
+  }
+]

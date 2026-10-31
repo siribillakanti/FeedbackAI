@@ -1,0 +1,413 @@
+[
+  {
+    "corpus_id": "beau-vc-001",
+    "product_slug": "dewleaf-vitamin-c-serum",
+    "title": null,
+    "text": "Been using 3-4 drops every morning before sunscreen. The dark spots near my cheeks have faded a bit and overall my skin looks fresher. Absorbs fast and doesn't pill under makeup.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-vc-002",
+    "product_slug": "dewleaf-vitamin-c-serum",
+    "title": null,
+    "text": "Good serum for the price. Dropper works well.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "value-for-money", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "beau-vc-003",
+    "product_slug": "dewleaf-vitamin-c-serum",
+    "title": "Finally a vitamin C that didn't break me out",
+    "text": "I have combination skin that reacts to almost every vitamin C product I've tried, usually tiny bumps on the forehead within a week. This one has been fine for six weeks now. Texture is watery, sinks in within a minute, and there's no sticky film even in Chennai humidity. I keep it in the fridge since it comes in an amber bottle, and the colour has stayed light yellow so far. Price is fair for 30ml, one bottle lasts me about five weeks.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "beau-vc-004",
+    "product_slug": "dewleaf-vitamin-c-serum",
+    "title": "Turned orange within a month",
+    "text": "Serum went from pale yellow to dark orange in under a month even though I kept the cap tight. Oxidised vitamin C is useless, and it left a faint orange tint on my fingers. Waste of money.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "value-for-money", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-vc-005",
+    "product_slug": "dewleaf-vitamin-c-serum",
+    "title": "Lots of small issues but it works",
+    "text": "Dropper leaks a little, the bottle is tiny and the smell is not pleasant. Still, my skin tone looks more even than before, so I'll probably buy it again.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "fragrance", "polarity": "NEGATIVE" },
+      { "aspect": "skin-feel", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "exception-mostly-complaints-4star"]
+  },
+  {
+    "corpus_id": "beau-vc-006",
+    "product_slug": "dewleaf-vitamin-c-serum",
+    "title": "Works, but that smell",
+    "text": "My skin does look brighter after a month and it absorbs quickly without any stickiness. But the smell is really strong, kind of metallic, and it lingers for a while. Using it only at night now.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "fragrance", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-ho-007",
+    "product_slug": "herbalaya-onion-hair-oil",
+    "title": "Hair fall reduced, smell is manageable",
+    "text": "My hair fall had become really bad after shifting to Bangalore, clumps in the comb every morning. Started oiling twice a week with this, leaving it on for two hours before washing. After about a month the fall has reduced noticeably and my scalp feels less dry. Yes, the onion smell is there, but it goes away completely after one shampoo wash. For 349 rupees it is value for money, go for it if you can handle the smell for a few hours.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "fragrance", "polarity": "NEUTRAL" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "idiom"]
+  },
+  {
+    "corpus_id": "beau-ho-008",
+    "product_slug": "herbalaya-onion-hair-oil",
+    "title": "My pillow smells of onions",
+    "text": "I don't know how people use this overnight. I applied it before bed once, like the bottle suggests, and the onion smell soaked right into my pillow cover. Washed the cover twice and it's still faintly there. My husband refused to sleep on that side lol. The oil itself is thin and spreads easily, I'll give it that, but I'm not using something I can still smell on myself the next afternoon at office. Never again.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "fragrance", "polarity": "NEGATIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "beau-ho-009",
+    "product_slug": "herbalaya-onion-hair-oil",
+    "title": null,
+    "text": "Less hair fall in 3 weeks. Superb oil.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["short", "idiom"]
+  },
+  {
+    "corpus_id": "beau-ho-010",
+    "product_slug": "herbalaya-onion-hair-oil",
+    "title": "Bottle leaked all over the parcel",
+    "text": "Cap was not sealed properly and half the oil had leaked by the time it reached me. Everything else in the box was greasy and stank. Haven't even used it, cant say anything about the oil itself.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "delivery", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "typo", "exception-service-not-product"]
+  },
+  {
+    "corpus_id": "beau-ho-011",
+    "product_slug": "herbalaya-onion-hair-oil",
+    "title": null,
+    "text": "बहुत अच्छा तेल है, दो हफ्ते में बाल झड़ना कम हो गया। खुशबू थोड़ी तेज़ है।",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [],
+    "style": ["short", "non-english-expected-unsupported"]
+  },
+  {
+    "corpus_id": "beau-gm-012",
+    "product_slug": "dewleaf-gel-moisturiser",
+    "title": null,
+    "text": "Light gel that disappears into the skin in seconds. My T-zone stays less shiny till lunch and there's no fragrance at all, which I prefer. Sits well under sunscreen.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "fragrance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-gm-013",
+    "product_slug": "dewleaf-gel-moisturiser",
+    "title": null,
+    "text": "Nice and light, recieved quickly too.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "delivery", "polarity": "POSITIVE" }
+    ],
+    "style": ["short", "typo"]
+  },
+  {
+    "corpus_id": "beau-gm-014",
+    "product_slug": "dewleaf-gel-moisturiser",
+    "title": "Good in summer, not enough in winter",
+    "text": "During the hot months this was honestly all I needed, a pea-sized amount and my face felt hydrated without any shine. Now that the weather has turned dry in Delhi my cheeks feel tight by evening and there are flaky patches around my nose, so I've had to layer a heavier cream on top at night. Great if your skin is properly oily or for summer, but don't expect it to carry you through a North Indian winter.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "beau-gm-015",
+    "product_slug": "dewleaf-gel-moisturiser",
+    "title": "Repurchased three times now",
+    "text": "This is my third tub. I have acne-prone skin and most moisturisers either feel like a layer of grease or clog my pores within days. This one is a clear gel, slightly cooling when you apply it, and it never feels heavy even when I travel somewhere humid like Mumbai. There's no added fragrance so nothing irritates. One tub lasts around two months with twice daily use. The flip cap is a bit flimsy, it cracked on my second tub, but the product itself is excellent and easily worth the price.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" },
+      { "aspect": "packaging", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "beau-gm-016",
+    "product_slug": "dewleaf-gel-moisturiser",
+    "title": "Broke me out",
+    "text": "Two weeks in and I have small whiteheads along my jawline that I never had before. Stopped using it and they are clearing up. Maybe it suits others, not me.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-ss-017",
+    "product_slug": "sunveil-spf50-sunscreen",
+    "title": "No white cast",
+    "text": "Zero white cast on my dusky skin 🙌 Finally.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" }
+    ],
+    "style": ["short", "emoji"]
+  },
+  {
+    "corpus_id": "beau-ss-018",
+    "product_slug": "sunveil-spf50-sunscreen",
+    "title": "The only sunscreen I actually reapply",
+    "text": "I commute by two-wheeler for almost an hour every day, so sunscreen is non-negotiable for me. Most SPF 50 creams I've tried either leave my face looking ashy or turn into an oil slick by noon. Sunveil's matte one dries down in about a minute, sits fine under a helmet without sliding into my eyes, and doesn't sting. I reapply at lunch over a bit of compact powder and it doesn't pill. The tube is small for the price if you use the proper two-finger amount, that's the only thing.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed", "mentions-name"]
+  },
+  {
+    "corpus_id": "beau-ss-019",
+    "product_slug": "sunveil-spf50-sunscreen",
+    "title": null,
+    "text": "Living in Kochi I sweat the moment I step out. This stays matte for a good four or five hours and doesn't run into my eyes. No tanning on my arms after a beach trip either. Totally value for money.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "beau-ss-020",
+    "product_slug": "sunveil-spf50-sunscreen",
+    "title": null,
+    "text": "Light texture and it blends in quickly. I use it every morning before work and haven't had any breakouts so far. Would like a bigger tube though.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-ss-021",
+    "product_slug": "sunveil-spf50-sunscreen",
+    "title": "Matte finish is great, eyes sting a bit",
+    "text": "The finish is lovely, no grease and makeup sits well on top. But if I sweat even a little and it gets near my eyes, they start watering. Now I just avoid applying close to the eye area.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-ss-022",
+    "product_slug": "sunveil-spf50-sunscreen",
+    "title": null,
+    "text": "Its okay. Dries matte, a bit drying on cheeks.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [
+      { "aspect": "skin-feel", "polarity": "NEUTRAL" }
+    ],
+    "style": ["short", "typo"]
+  },
+  {
+    "corpus_id": "beau-bt-023",
+    "product_slug": "groomwell-beard-trimmer",
+    "title": null,
+    "text": "Charged it once when it arrived and I've trimmed every three days for almost a month on that single charge. Battery backup is excellent. Blades are sharp, no pulling, and the length dial clicks firmly into place.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "battery-life", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "beau-bt-024",
+    "product_slug": "groomwell-beard-trimmer",
+    "title": "Great trim, slow charging",
+    "text": "The trim itself is clean and even, and the 0.5 mm steps on the guard let me keep a proper stubble length instead of guessing. It's light, fits the hand well and makes a soft hum rather than a buzz. My complaints: a full charge takes almost two hours, there's no quick charge, and the port is micro USB, so I need a separate cable when everything else I own is Type-C. The guard comb also has a little play in it when you press hard along the jawline. Still, for this price the results are good.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "noise-level", "polarity": "POSITIVE" },
+      { "aspect": "battery-life", "polarity": "NEGATIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "beau-bt-025",
+    "product_slug": "groomwell-beard-trimmer",
+    "title": null,
+    "text": "Trims beard. Does what it says.",
+    "intended_stars": 5,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["short", "exception-terse-5star"]
+  },
+  {
+    "corpus_id": "beau-bt-026",
+    "product_slug": "groomwell-beard-trimmer",
+    "title": "Neat lines around the cheeks",
+    "text": "The narrow edge on the Groomwell blade makes shaping the cheek line much easier than my old trimmer. Washable head is a big plus, I just rinse it under the tap after every use.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "mentions-name"]
+  },
+  {
+    "corpus_id": "beau-bt-027",
+    "product_slug": "groomwell-beard-trimmer",
+    "title": "Guard comb snapped",
+    "text": "The plastic guard comb cracked at the clip after about five weeks of normal use, and the trimmer is useless for longer lengths without it. Customer care asked me to send photos and then stopped replying.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-hd-028",
+    "product_slug": "ionic-pro-hair-dryer",
+    "title": "Less frizz than my old dryer",
+    "text": "Noticeably less frizz after drying, my hair actually looks smoother instead of puffy. The folding handle is handy for travel. Gets warm to hold after ten minutes but nothing serious.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "beau-hd-029",
+    "product_slug": "ionic-pro-hair-dryer",
+    "title": null,
+    "text": "Dries hair in 10 min. Bit loud. Okay overall.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [
+      { "aspect": "performance", "polarity": "NEUTRAL" },
+      { "aspect": "noise-level", "polarity": "NEGATIVE" }
+    ],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "beau-hd-030",
+    "product_slug": "ionic-pro-hair-dryer",
+    "title": "Heat settings are misleading",
+    "text": "There are three heat settings and two speeds on paper, but in practice the low setting is almost as hot as high. With thin, colour-treated hair that's a problem, the ends started feeling dry and straw-like within a couple of weeks. The cool shot button only works if you keep it pressed the whole time, which gets tiring. It's also much louder than I expected, my neighbour joked that I was running a mixer at 7 am. Drying speed is decent, I'll give it that, but I've gone back to air drying most days.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "NEGATIVE" },
+      { "aspect": "noise-level", "polarity": "NEGATIVE" },
+      { "aspect": "ease-of-use", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "beau-hd-031",
+    "product_slug": "ionic-pro-hair-dryer",
+    "title": null,
+    "text": "Fast, light and folds into my bag. Love it.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "beau-hd-032",
+    "product_slug": "ionic-pro-hair-dryer",
+    "title": "Stopped working after two months",
+    "text": "Was working fine and then one morning it just cut off mid-use and smelled like burning plastic. Haven't dared to switch it on since. Waiting on the warranty claim now.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  }
+]

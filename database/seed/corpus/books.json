@@ -1,0 +1,315 @@
+[
+  {
+    "corpus_id": "book-ml-001",
+    "product_slug": "the-monsoon-ledger",
+    "title": "A family saga that earns its length",
+    "text": "I picked this up after a friend kept going on about it and I'm glad I did. The story follows three generations of a trading family in coastal Karnataka, and the ledger itself becomes this quiet thread connecting everyone's secrets. The prose is unhurried but never boring, and the monsoon chapters are so atmospheric I could almost smell wet earth. Some reviewers say the first fifty pages are slow, which is fair, but stick with it. Paper quality is good and the cover is lovely in person.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "story-writing", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "book-ml-002",
+    "product_slug": "the-monsoon-ledger",
+    "title": "Couldn't put it down",
+    "text": "Read it in two sittings. The way the author moves between the grandmother's diary and the present day is beautifully done, and the ending stayed with me for days.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "story-writing", "polarity": "POSITIVE" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "book-ml-003",
+    "product_slug": "the-monsoon-ledger",
+    "title": null,
+    "text": "Quiet, beautiful book. Cried at the end.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "book-ml-004",
+    "product_slug": "the-monsoon-ledger",
+    "title": null,
+    "text": "Got the paperback for under 400 and honestly it's value for money, the writing is that good. Already lent it to my sister.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "value-for-money", "polarity": "POSITIVE" },
+      { "aspect": "story-writing", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "book-ml-005",
+    "product_slug": "the-monsoon-ledger",
+    "title": "Lovely writing, tiny font",
+    "text": "The writing deserves five stars. Every character, even the cranky munshi who only shows up in three chapters, feels like a real person, and the way the family's debts are revealed slowly through the ledger entries is clever. Taking off a star for the print though. The font is really small and the paper is thin enough that the next page shows through, which made reading at night a strain. Would happily buy a hardcover edition if they bring one out.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "story-writing", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "book-ml-006",
+    "product_slug": "the-monsoon-ledger",
+    "title": "Worth the hype",
+    "text": "Slow start, but a very rewarding read.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "story-writing", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "book-ml-007",
+    "product_slug": "the-monsoon-ledger",
+    "title": null,
+    "text": "It's a slow, literary family drama. Some parts held my attention, others didn't. Probably better suited to readers who like this genre than to me.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "story-writing", "polarity": "NEUTRAL" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "book-ch-001",
+    "product_slug": "code-habits",
+    "title": "Changed how I review PRs",
+    "text": "I've been a backend developer for about four years and Code Habits is the first book in a while that actually changed what I do day to day. The chapter on naming alone is worth it, and the section on writing tests before refactoring legacy modules was exactly what our team needed. Examples are in Python and JavaScript, short enough to follow without a laptop open. It doesn't preach, it just shows a messy function and then improves it step by step. I keep a copy on my desk now.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "story-writing", "polarity": "POSITIVE" }],
+    "style": ["detailed", "mentions-title"]
+  },
+  {
+    "corpus_id": "book-ch-002",
+    "product_slug": "code-habits",
+    "title": "Must read for freshers",
+    "text": "Every junior developer should read this once.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "book-ch-003",
+    "product_slug": "code-habits",
+    "title": "Good ideas, dated examples",
+    "text": "Several code samples use library versions that are two or three years old, and a couple didn't even run for me without changes. Still, the principles behind them hold up, so it was worth reading.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [{ "aspect": "story-writing", "polarity": "POSITIVE" }],
+    "style": ["medium", "exception-complaints-but-worth-it"]
+  },
+  {
+    "corpus_id": "book-ch-004",
+    "product_slug": "code-habits",
+    "title": null,
+    "text": "Learnt alot from the chapters on code review and error handling. Defintely recommend for anyone who has just started working in a team.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "story-writing", "polarity": "POSITIVE" }],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "book-ch-005",
+    "product_slug": "code-habits",
+    "title": null,
+    "text": "Mostly things I had already picked up at work.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "book-ch-006",
+    "product_slug": "code-habits",
+    "title": "Feels like stitched blog posts",
+    "text": "Expected a lot more for 699. The chapters don't really build on each other, it reads like a collection of blog posts with a common cover. Half the JavaScript examples still use callback style code and an old build setup nobody uses anymore, so I spent more time fixing the snippets than learning from them. There is some decent advice on commit messages and code review near the end, but you can find the same thing free online.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "story-writing", "polarity": "NEGATIVE" },
+      { "aspect": "value-for-money", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "book-nd-001",
+    "product_slug": "ninety-days-to-calm",
+    "title": "Small chapters, big difference",
+    "text": "Superb for someone like me who can't sit still for long. Each day is just two or three pages and one breathing exercise, so I actually finished it. My sleep has improved a bit.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "story-writing", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "book-nd-002",
+    "product_slug": "ninety-days-to-calm",
+    "title": null,
+    "text": "The breathing exercises in the first month are genuinely useful. After that it just repeats the same advice with new anecdotes, could easily have been half the length.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [{ "aspect": "story-writing", "polarity": "NEGATIVE" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "book-nd-003",
+    "product_slug": "ninety-days-to-calm",
+    "title": null,
+    "text": "It's fine. Common sense advice, mostly.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "book-nd-004",
+    "product_slug": "ninety-days-to-calm",
+    "title": "Very repetative",
+    "text": "Same three ideas repeated for 90 days. I cant understand how this got such good ratings, maybe it works if you have never read anything on mindfulness before.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "story-writing", "polarity": "NEGATIVE" }],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "book-nd-005",
+    "product_slug": "ninety-days-to-calm",
+    "title": "Pages fell out within a week",
+    "text": "Honestly the content is very generic, mostly quotes and 'take a deep breath' type advice, but that's not even the main problem. The binding is just glue and by day six pages 40 to 70 had come loose and were falling out every time I opened it. The paper is so thin you can see the print from the other side. For a book that's supposed to calm you down, it mostly irritated me. Would not buy this edition again.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "story-writing", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "book-sr-001",
+    "product_slug": "spice-routes-of-the-south",
+    "title": "Finally a South Indian cookbook that gets it right",
+    "text": "I grew up eating my paati's food and most cookbooks dumb these recipes down. This one doesn't. The Chettinad chapter has a proper pepper chicken that tastes the way I remember, and the Mangalorean section taught me to make neer dosa without it tearing every time. Every recipe has both cup and gram measurements, which helps a lot. The photographs are gorgeous and the hardcover feels sturdy enough to survive kitchen splashes. It looks lovely on the shelf too.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "story-writing", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "book-sr-002",
+    "product_slug": "spice-routes-of-the-south",
+    "title": null,
+    "text": "Gifted it to my mom, she loves it 😊",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [],
+    "style": ["short", "emoji"]
+  },
+  {
+    "corpus_id": "book-sr-003",
+    "product_slug": "spice-routes-of-the-south",
+    "title": "Gorgeous photos, check the salt",
+    "text": "Pictures are stunning and the recipes mostly work. But two of the rasam recipes had way too much salt for us, and some places just say 'a handful' which isn't very helpful for beginners.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "story-writing", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "book-sr-004",
+    "product_slug": "spice-routes-of-the-south",
+    "title": null,
+    "text": "For a hardcover with colour photos on every page, 549 is value for money. Made the coconut chutney and the vegetable stew this week, both came out well.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "value-for-money", "polarity": "POSITIVE" }],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "book-sr-005",
+    "product_slug": "spice-routes-of-the-south",
+    "title": "Love the book, hate the condition",
+    "text": "The recipes and photos are wonderful, no complaints there. But it came in a thin plastic cover with no box and the corner of the hardcover was badly dented. Giving 2 stars for that.",
+    "intended_stars": 2,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "story-writing", "polarity": "POSITIVE" },
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "delivery", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "exception-positive-text-low-stars"]
+  },
+  {
+    "corpus_id": "book-sh-001",
+    "product_slug": "shadows-over-hampi",
+    "title": "Perfect weekend read",
+    "text": "Shadows over Hampi kept me up till 2 am. The boulder fields and temple ruins make a brilliant setting for a murder mystery, and the chapters are short so you keep saying just one more.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "story-writing", "polarity": "POSITIVE" }],
+    "style": ["medium", "mentions-title"]
+  },
+  {
+    "corpus_id": "book-sh-002",
+    "product_slug": "shadows-over-hampi",
+    "title": null,
+    "text": "Superb thriller, go for it!",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [],
+    "style": ["short", "idiom"]
+  },
+  {
+    "corpus_id": "book-sh-003",
+    "product_slug": "shadows-over-hampi",
+    "title": "Gripping until the last 30 pages",
+    "text": "Fast paced and the descriptions of Hampi at night are really vivid. The ending felt rushed though, the detective explains everything in one long speech and a few coincidences were hard to buy.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [{ "aspect": "story-writing", "polarity": "NEGATIVE" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "book-sh-004",
+    "product_slug": "shadows-over-hampi",
+    "title": null,
+    "text": "Guessed the killer by chapter four, the so called twist was obvious from a mile away. Dont understand the hype.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "story-writing", "polarity": "NEGATIVE" }],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "book-sh-005",
+    "product_slug": "shadows-over-hampi",
+    "title": "Misprinted copy, return refused",
+    "text": "The story was actually pulling me in for the first hundred pages, so this rating is about the copy I received, not the writing. Pages 113 to 144 were printed twice and the chapters after that were simply missing, so I never found out how it ends. I raised a return request the same day and was told books are non-returnable once opened. Customer support kept sending the same copy-paste reply. Very frustrating experience for a 349 rupee book.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" },
+      { "aspect": "story-writing", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "exception-defect-not-content"]
+  }
+]

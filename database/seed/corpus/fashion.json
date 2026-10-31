@@ -1,0 +1,391 @@
+[
+  {
+    "corpus_id": "fash-rs-001",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": "Clocked 250 km, still bouncy",
+    "text": "I'm training for my first half marathon and have put roughly 250 km on these over two months, mostly early morning road runs of 8-14 km. The cushioning under the heel hasn't gone flat yet, which was my main worry at this price. Upper mesh is breathable enough for Pune humidity and my socks don't come out soaked. No hot spots or blisters even on the long Sunday run. The outsole is showing a little wear at the outer heel but that's just how I land. Would buy again when these retire.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "POSITIVE" },
+      { "aspect": "material-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "fash-rs-002",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": null,
+    "text": "Super comfy, did 10k on day one itself. No blisters.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "comfort", "polarity": "POSITIVE" }],
+    "style": ["short", "idiom"]
+  },
+  {
+    "corpus_id": "fash-rs-003",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": "Love the cushioning, hate the laces",
+    "text": "Cushioning is the best I've had in this budget, knees feel fine after long runs. The laces though are slippery and keep coming undone mid-run, I swapped them for an old pair. Still giving 5 because the shoe itself is great.",
+    "intended_stars": 5,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-rs-004",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": "True to size",
+    "text": "Ordered UK 9 after checking the size chart and it fits exactly like my old pair. Toe box has a bit of room which I like for longer runs. Took a couple of days to break in.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "fit-size", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-rs-005",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": null,
+    "text": "Very light, maybe the lightest shoe I own, and the mesh keeps my feet cool even in May. Cushioning is soft without feeling mushy. My one real complaint is grip on wet surfaces. During the first monsoon runs I nearly slipped twice on painted road markings and the tiled entrance of my society, so now I'm careful on rainy days. On dry tarmac and the treadmill it's totally fine. If the rubber was grippier this would be a five star shoe for me.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "material-quality", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "fash-rs-006",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": null,
+    "text": "light weight, good grip on treadmill. worth for money",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["short", "typo", "idiom"]
+  },
+  {
+    "corpus_id": "fash-rs-007",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": null,
+    "text": "Got these in the festive sale for my husband. He uses them for gym and evening walks, says they're comfortable and the grey colour looks smart with jeans too.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "comfort", "polarity": "POSITIVE" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-rs-009",
+    "product_slug": "stridewell-pace-running-shoes",
+    "title": "Sole peeled in 3 weeks",
+    "text": "Sole started peeling off near the toe after just three weeks of evening runs. Really disappointed, these are not cheap.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "durability", "polarity": "NEGATIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "fash-sh-001",
+    "product_slug": "loomline-oxford-shirt",
+    "title": "Breathable, finally",
+    "text": "Most formal shirts I've tried feel like plastic by afternoon in Chennai. This one is proper cotton, stays breathable through a full office day and doesn't crease too badly on the commute.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "material-quality", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-sh-002",
+    "product_slug": "loomline-oxford-shirt",
+    "title": null,
+    "text": "Good shirt for the price. Wear it to office weekly.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "value-for-money", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "fash-sh-003",
+    "product_slug": "loomline-oxford-shirt",
+    "title": "Neat fit for a slim build",
+    "text": "I'm on the slimmer side and usually regular fits look like a tent on me. The slim fit here sits well at the shoulders and chest. Ironing takes a little effort but the collar holds its shape.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "fit-size", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-sh-004",
+    "product_slug": "loomline-oxford-shirt",
+    "title": "Decent office shirt",
+    "text": "Fabric is okay, fitting is regular. Nothing special but fine for office wear. Colour hasn't faded after 5-6 washes.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [
+      { "aspect": "fit-size", "polarity": "NEUTRAL" },
+      { "aspect": "durability", "polarity": "POSITIVE" }
+    ],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "fash-sh-005",
+    "product_slug": "loomline-oxford-shirt",
+    "title": "Shrank a full size after one wash",
+    "text": "Fit was perfect when it arrived, I tried it on and was happy. Washed it once in cold water on the gentle cycle exactly as the label says, and it came out noticeably shorter in the sleeves and tight across the chest. It now fits my 15 year old nephew better than me. The fabric also feels rougher after washing. The return window had closed by the time I washed it, so I'm stuck with it. If you buy, maybe size up, or better, wash it before the return period ends.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "fit-size", "polarity": "NEGATIVE" },
+      { "aspect": "material-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "fash-sh-006",
+    "product_slug": "loomline-oxford-shirt",
+    "title": null,
+    "text": "It's a plain white shirt and it does what a plain white shirt does. Slim fit is genuinely slim, so size up if you have broad shoulders.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "fit-size", "polarity": "NEUTRAL" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-sh-007",
+    "product_slug": "loomline-oxford-shirt",
+    "title": "Dye ran in the first wash",
+    "text": "The light blue colour bled in the very first wash and turned my white vest and a handkerchief bluish. Washed it separately the second time and the water was still blue. Fabric is fine otherwise but I can't trust it in a mixed load.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "material-quality", "polarity": "NEGATIVE" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-dj-001",
+    "product_slug": "northbay-denim-jacket",
+    "title": "Survived a Manali trip",
+    "text": "Took this Northbay jacket on a week-long Manali trip in October and it was easily the most used thing in my bag. The denim is thick and properly heavy, blocks the wind well, and layering a hoodie underneath still left room to move my arms. Stitching on the pockets and cuffs is neat with no loose threads, and after two washes there's no fading yet. It does feel a little stiff for the first few days but that's normal for good denim. Sizing matched the chart.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "material-quality", "polarity": "POSITIVE" },
+      { "aspect": "fit-size", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "mentions-product"]
+  },
+  {
+    "corpus_id": "fash-dj-002",
+    "product_slug": "northbay-denim-jacket",
+    "title": null,
+    "text": "Fits perfect and looks premium. Go for it!",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "fit-size", "polarity": "POSITIVE" }],
+    "style": ["short", "idiom"]
+  },
+  {
+    "corpus_id": "fash-dj-003",
+    "product_slug": "northbay-denim-jacket",
+    "title": "Stiff at first, sleeves run short",
+    "text": "The fabric was cardboard-stiff out of the box, it took about four washes before it felt comfortable. Even now the sleeves end above my wrist bone and I'm only 5'11. Looks good though when the sleeves are rolled up.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "fit-size", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-dj-004",
+    "product_slug": "northbay-denim-jacket",
+    "title": null,
+    "text": "Colour lighter than the pics. Regular jacket otherwise.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "fash-dj-005",
+    "product_slug": "northbay-denim-jacket",
+    "title": "Button gone, return a mess",
+    "text": "Top button popped off the second time I wore it, the metal shank just snapped. Raised a return and the pickup got cancelled twice without anyone calling me. Still didnt get my refund after 10 days.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "fash-ku-001",
+    "product_slug": "kaari-handloom-kurta",
+    "title": "Proper handloom, not a print",
+    "text": "You can actually see and feel the weave, with tiny irregularities in the thread that tell you it's handloom and not a printed mill fabric. The cotton is soft and breathes really well, I wore it for a full day of Onam visits in humid weather and stayed comfortable. The colour is a deep indigo that looks richer in person than on the website. I hand washed it in cold water with mild detergent as the tag suggests and there was barely any colour in the water. Length is good for wearing with jeans or churidar.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "material-quality", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "fash-ku-002",
+    "product_slug": "kaari-handloom-kurta",
+    "title": null,
+    "text": "Beautiful colour and so soft. Got many compliments 😊",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "material-quality", "polarity": "POSITIVE" }],
+    "style": ["short", "emoji"]
+  },
+  {
+    "corpus_id": "fash-ku-003",
+    "product_slug": "kaari-handloom-kurta",
+    "title": "Bought for my father's birthday",
+    "text": "Ordered this for my father's 60th birthday. He's particular about fit around the chest and usually complains that ready-made kurtas are too tight there, so I measured one of his old kurtas and compared it with the size chart. Went with XL and it fit him perfectly, sleeves and length both spot on. It came neatly folded in a cloth bag instead of a plastic cover, which felt like a nice touch for a gift. He has worn it three times in two weeks already, which says enough.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "fit-size", "polarity": "POSITIVE" },
+      { "aspect": "packaging", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "fash-ku-004",
+    "product_slug": "kaari-handloom-kurta",
+    "title": null,
+    "text": "This is my second Kaari kurta and the first one is still going strong after a year of regular wear. At this price for real handloom cotton, it's honestly value for money.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom", "mentions-product"]
+  },
+  {
+    "corpus_id": "fash-ku-005",
+    "product_slug": "kaari-handloom-kurta",
+    "title": "Lovely fabric, colour faded a bit",
+    "text": "The fabric is gorgeous and very airy. But the maroon faded noticeably after the first wash even though I hand washed it, and now the collar looks a shade lighter than the body.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "material-quality", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-ku-006",
+    "product_slug": "kaari-handloom-kurta",
+    "title": "Nice kurta, painful exchange",
+    "text": "The kurta itself is lovely, nothing wrong with the fabric or stitching. Problem is I ordered L and got M, and the exchange took more than three weeks with two follow-ups to customer care. Wanted it for a wedding and ended up wearing something else.",
+    "intended_stars": 2,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "material-quality", "polarity": "POSITIVE" },
+      { "aspect": "delivery", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "exception-positive-text-low-stars"]
+  },
+  {
+    "corpus_id": "fash-bp-001",
+    "product_slug": "carryall-canvas-backpack",
+    "title": "My daily commute bag now",
+    "text": "Using it every day for my office commute by local train. The padded laptop sleeve fits my 15.6 inch laptop with a little room to spare, and there's still space for a lunch box, charger and a rain jacket in the main compartment. The canvas held up well in a proper Mumbai downpour, everything inside stayed dry, though the outside took a while to dry. Shoulder straps are padded enough that it doesn't dig in even when the bag is full. Zips run smoothly and feel sturdy.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "material-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "fash-bp-002",
+    "product_slug": "carryall-canvas-backpack",
+    "title": null,
+    "text": "Roomy, sturdy, zips feel strong. Good buy.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "build-quality", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "fash-bp-003",
+    "product_slug": "carryall-canvas-backpack",
+    "title": "Zip started catching in a month",
+    "text": "Liked it a lot in the first couple of weeks. Then the front pocket zip started catching on the fabric every single time, and now I have to hold the edge flat to close it. The side bottle pocket is too shallow, my 1 litre bottle fell out twice while I was climbing stairs. I also noticed the stitching where the left strap joins the bag has started fraying a little. For something I bought specifically for daily college use, I expected it to last longer than a month without issues.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "fash-bp-004",
+    "product_slug": "carryall-canvas-backpack",
+    "title": "Late delivery, torn box, no reply",
+    "text": "Tracking showed delivered on the 12th but I actually recieved it 9 days later, with the box torn open on one side. Messaged the seller twice and got no reply. Haven't used the bag yet so can't say anything about the bag itself, this rating is for the experience.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "delivery", "polarity": "NEGATIVE" },
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "typo", "exception-service-not-product"]
+  },
+  {
+    "corpus_id": "fash-wt-001",
+    "product_slug": "timbre-classic-analog-watch",
+    "title": "Classy look, strap smell though",
+    "text": "Gifted it to my husband for our anniversary. The dial looks elegant and the watch keeps good time. The leather strap had a strong chemical smell for the first week, he kept it out on the balcony for two days before he could wear it.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "material-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "fash-wt-002",
+    "product_slug": "timbre-classic-analog-watch",
+    "title": null,
+    "text": "Elegant dial, keeps perfect time. Dad loved it.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  }
+]

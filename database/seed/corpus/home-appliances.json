@@ -1,0 +1,448 @@
+[
+  {
+    "corpus_id": "home-af-001",
+    "product_slug": "crispo-air-fryer",
+    "title": "Replaced half my deep frying",
+    "text": "Been using it daily for about two months now. Fries, paneer tikka, even reheating samosas, everything comes out crisp with maybe a teaspoon of oil. The basket coating has held up so far and it cleans easily with warm water. Preheat is quick. Only small gripe is the beep is loud and you can't turn it off, my kid wakes up if I use it late. The 4.2L size is enough for a family of four if you do two batches. Honestly one of the better kitchen purchases I've made.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" },
+      { "aspect": "noise-level", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "home-af-002",
+    "product_slug": "crispo-air-fryer",
+    "title": null,
+    "text": "Crispy fries with barely a spoon of oil. Love it.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "home-af-003",
+    "product_slug": "crispo-air-fryer",
+    "title": "Basket coating needs care",
+    "text": "Food cooks evenly and the presets for fries and chicken are pretty accurate. But after three months the non-stick in the basket has started scratching even though I only use the silicone tongs that came with it.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-af-004",
+    "product_slug": "crispo-air-fryer",
+    "title": "Value for money in the sale",
+    "text": "Picked this up in the Diwali sale for under 5k and it's been value for money. Controls are simple enough that my mother uses it on her own for reheating rotis and making makhana.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "value-for-money", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  },
+  {
+    "corpus_id": "home-af-005",
+    "product_slug": "crispo-air-fryer",
+    "title": "Switched from an OTG, no regrets",
+    "text": "I had a 25L OTG before this and honestly the Crispo is better for everyday stuff. It heats up in about two minutes instead of ten, the digital panel shows time and temperature together, and the shake reminder halfway is a nice touch. Chicken wings come out crisp outside and juicy inside. The OTG still wins for baking a full cake, but for snacks, roasted veggies and frozen stuff this has replaced it completely. Footprint on the counter is smaller than I expected too.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "home-af-006",
+    "product_slug": "crispo-air-fryer",
+    "title": null,
+    "text": "It works the way it's supposed to. I just don't end up using it as often as I thought I would, mostly for reheating pizza. Probably more useful for bigger families who make snacks daily.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "performance", "polarity": "NEUTRAL" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-af-007",
+    "product_slug": "crispo-air-fryer",
+    "title": null,
+    "text": "Recieved on time, works great. Using it every day.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "delivery", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["short", "typo"]
+  },
+  {
+    "corpus_id": "home-af-008",
+    "product_slug": "crispo-air-fryer",
+    "title": "Smell on first few uses",
+    "text": "There was a strong plastic smell for the first three or four runs even after doing an empty cycle like the manual says. It's gone now and the food comes out really well, but it was worrying for a while.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-af-009",
+    "product_slug": "crispo-air-fryer",
+    "title": "Bought for my parents",
+    "text": "Got this for my parents who are both in their late sixties and wanted to cut down on oily food. I was worried the buttons would confuse them but the touch panel with pictures of each food type is very clear, my father figured it out without calling me even once. The box was packed really well with thick foam on all sides, not a single scratch. Three weeks in and they've made aloo tikki, fish fry and even banana chips in it. Cleaning is just the basket and tray, both go straight into the sink.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" },
+      { "aspect": "packaging", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "home-kt-001",
+    "product_slug": "brewmate-electric-kettle",
+    "title": null,
+    "text": "Boils a full litre in a few minutes and the auto cut-off has worked every single time. Handle stays cool. Wish the cord was a bit longer, but that's minor.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-kt-002",
+    "product_slug": "brewmate-electric-kettle",
+    "title": null,
+    "text": "Boils water in like 3 mins. Does the job.",
+    "intended_stars": 5,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short", "exception-terse-5star"]
+  },
+  {
+    "corpus_id": "home-kt-003",
+    "product_slug": "brewmate-electric-kettle",
+    "title": "That plastic smell though",
+    "text": "Water had a plastic taste for the whole first week. I boiled and threw it out maybe 8-10 times before it went away. Now it's fine and boils quickly, but the first impression was bad.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-kt-004",
+    "product_slug": "brewmate-electric-kettle",
+    "title": "Lid broke in a month",
+    "text": "Lid doesnt lock properly after just one month, steam escapes from the side so the auto shut off takes forever to trigger. Not safe to leave it unattended now. Poor quality.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "NEGATIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "typo"]
+  },
+  {
+    "corpus_id": "home-kt-005",
+    "product_slug": "brewmate-electric-kettle",
+    "title": null,
+    "text": "Light, compact and perfect for my hostel room.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "ease-of-use", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "home-kt-006",
+    "product_slug": "brewmate-electric-kettle",
+    "title": "Average kettle for the price",
+    "text": "I mainly use it for green tea in the morning and the occasional cup noodles at night. The inside is stainless steel, which was the main reason I picked it over the all-plastic ones. The outer body does get quite hot while boiling, so it's not something you want kids touching. The power cord is around 70 cm, enough if your socket is right next to the counter. It's been about five months with no issues. For around 1,200 rupees it's pretty much what you'd expect, nothing more and nothing less.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "NEUTRAL" },
+      { "aspect": "value-for-money", "polarity": "NEUTRAL" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "home-mg-001",
+    "product_slug": "blendrix-mixer-grinder",
+    "title": "Handles idli batter and dry masala easily",
+    "text": "We grind idli and dosa batter twice a week and this 750W motor doesn't struggle at all, even with a full jar of soaked rice. I've also used the small jar for dry masalas like garam masala and coffee beans and it gives a fine powder in under a minute. The jars are heavy steel and the handles feel solid. Yes it's loud, but every mixer at this power level is loud, so I don't hold it against it. Six months of regular use and no issues with the motor or the coupler.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "noise-level", "polarity": "NEUTRAL" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "home-mg-002",
+    "product_slug": "blendrix-mixer-grinder",
+    "title": "Paisa vasool mixer",
+    "text": "Grinds dosa batter really smooth, totally paisa vasool.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "POSITIVE" }
+    ],
+    "style": ["short", "idiom"]
+  },
+  {
+    "corpus_id": "home-mg-003",
+    "product_slug": "blendrix-mixer-grinder",
+    "title": "Chutney jar lid leaks",
+    "text": "The motor is powerful and grinding is quick. Only problem is the small chutney jar, the lid leaks from the sides when you run it at speed 3, so I have to hold it down with a cloth every time.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "build-quality", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-mg-004",
+    "product_slug": "blendrix-mixer-grinder",
+    "title": "Burning smell went away after a few runs",
+    "text": "First time I used it there was a burning smell from the motor and I almost packed it up for return. Checked the manual and it actually says a slight smell is normal for new motors, so I gave it a few more tries with short bursts. By the third use it was completely gone. That was four months ago and it's been running fine since, we use it daily for chutneys and the big jar for buttermilk on weekends. Taking one star off only because the manual should have said this in bold on the first page.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "durability", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "home-mg-005",
+    "product_slug": "blendrix-mixer-grinder",
+    "title": null,
+    "text": "Sturdy jars and very easy to clean.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "POSITIVE" },
+      { "aspect": "ease-of-use", "polarity": "POSITIVE" }
+    ],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "home-mg-006",
+    "product_slug": "blendrix-mixer-grinder",
+    "title": "Overload trips constantly",
+    "text": "It is extremely loud, I'm sure the neighbours can hear it. Worse, the overload switch trips every time I grind urad dal for more than a minute, so I have to wait and restart it three or four times.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "noise-level", "polarity": "NEGATIVE" },
+      { "aspect": "performance", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-mg-007",
+    "product_slug": "blendrix-mixer-grinder",
+    "title": null,
+    "text": "Average mixer. Nothing to complain, nothing to praise.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "home-ap-001",
+    "product_slug": "purebreeze-air-purifier",
+    "title": "Superb for Delhi winters",
+    "text": "Bought this in November when the AQI outside was touching 400. Kept it running in a 150 sq ft bedroom with the door shut and the PM2.5 reading on its display dropped from around 280 to below 40 in about half an hour. Night mode is superb, the fan goes almost silent and the display light turns off completely, so it doesn't bother my sleep at all. My wife's morning cough has noticeably reduced. It's not cheap, but in this city it feels necessary rather than a luxury.",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "noise-level", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "idiom"]
+  },
+  {
+    "corpus_id": "home-ap-002",
+    "product_slug": "purebreeze-air-purifier",
+    "title": "Check the filter price before buying",
+    "text": "Cleans the air well and the auto mode reacts quickly when someone is cooking. But the replacement HEPA filter costs ₹2,800 and they suggest changing it every six months, which nobody mentions upfront.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "value-for-money", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-ap-003",
+    "product_slug": "purebreeze-air-purifier",
+    "title": null,
+    "text": "Night mode really is quiet, quieter than my ceiling fan on speed one. My son used to wake up sneezing and that has mostly stopped since we started running it.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "noise-level", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-ap-004",
+    "product_slug": "purebreeze-air-purifier",
+    "title": null,
+    "text": "Room feels fresher and allergies are better 👍",
+    "intended_stars": 5,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short", "emoji"]
+  },
+  {
+    "corpus_id": "home-ap-005",
+    "product_slug": "purebreeze-air-purifier",
+    "title": "Arrived damaged",
+    "text": "The box was clearly dropped somewhere, the front panel came cracked. Had to raise a replacement which took 12 days. Can't say much about the purifier itself yet.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "packaging", "polarity": "NEGATIVE" },
+      { "aspect": "delivery", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "exception-delivery-not-product"]
+  },
+  {
+    "corpus_id": "home-di-001",
+    "product_slug": "steamline-dry-iron",
+    "title": null,
+    "text": "Light, heats up fast, fine for daily shirts.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [{ "aspect": "performance", "polarity": "POSITIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "home-di-002",
+    "product_slug": "steamline-dry-iron",
+    "title": "Soleplate coating peeled",
+    "text": "Heats evenly and the weight is comfortable for long ironing sessions. But the non-stick soleplate started peeling near the tip after four months and now it sometimes drags on synthetic fabric.",
+    "intended_stars": 3,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "performance", "polarity": "POSITIVE" },
+      { "aspect": "comfort", "polarity": "POSITIVE" },
+      { "aspect": "durability", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-di-003",
+    "product_slug": "steamline-dry-iron",
+    "title": "Burnt my linen shirt",
+    "text": "Temperature knob is loose and doesn't match the actual heat. Put it on the cotton setting and it left a shiny burn mark on my husband's linen shirt. Using it very carefully now.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "build-quality", "polarity": "NEGATIVE" },
+      { "aspect": "performance", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-ro-001",
+    "product_slug": "aquafresh-ro-purifier",
+    "title": "Bad installation experience, good water",
+    "text": "Honestly the buying experience was poor. The installation was scheduled for the day after delivery but the technician came a full week later, was in a hurry, and drilled the holes slightly crooked. I had to call customer care twice just to get the free pre-filter they had promised. Having said all that, now that it is running the water tastes clean and slightly sweet, and my TDS meter reads around 80 compared to 600 from the borewell. So the product is good, the service around it is not.",
+    "intended_stars": 4,
+    "intended_sentiment": "MIXED",
+    "aspects": [
+      { "aspect": "installation", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["detailed", "exception-4star-mostly-complaints"]
+  },
+  {
+    "corpus_id": "home-ro-002",
+    "product_slug": "aquafresh-ro-purifier",
+    "title": null,
+    "text": "Started leaking from the bottom within a month.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [{ "aspect": "durability", "polarity": "NEGATIVE" }],
+    "style": ["short"]
+  },
+  {
+    "corpus_id": "home-ro-003",
+    "product_slug": "aquafresh-ro-purifier",
+    "title": "Service costs add up",
+    "text": "The purifier itself works but the after-sales model is designed to squeeze you. Every service visit outside the AMC is charged ₹450 even if the technician just looks at it for five minutes. They keep calling to push a ₹3,500 yearly AMC and when I said no, the next filter change somehow took three weeks to schedule. Membrane replacement was quoted at ₹2,200 at the one-year mark. Factor all of this into the price because the sticker price is only half the story with AquaFresh.",
+    "intended_stars": 2,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "customer-service", "polarity": "NEGATIVE" },
+      { "aspect": "value-for-money", "polarity": "NEGATIVE" }
+    ],
+    "style": ["detailed"]
+  },
+  {
+    "corpus_id": "home-ro-004",
+    "product_slug": "aquafresh-ro-purifier",
+    "title": null,
+    "text": "TDS went from 650 to about 90 according to the technician's meter. Taste is fine. It takes more wall space than the old one and the storage tank is around 7 litres, which is enough for two people.",
+    "intended_stars": 3,
+    "intended_sentiment": "NEUTRAL",
+    "aspects": [{ "aspect": "performance", "polarity": "NEUTRAL" }],
+    "style": ["medium"]
+  },
+  {
+    "corpus_id": "home-ro-005",
+    "product_slug": "aquafresh-ro-purifier",
+    "title": "Installation was a nightmare",
+    "text": "Installation guy came 6 days late and left the inlet pipe leaking. Called customer care three times, no proper response. Cant comment on the water taste yet because I'm still waiting for someone to fix it.",
+    "intended_stars": 1,
+    "intended_sentiment": "NEGATIVE",
+    "aspects": [
+      { "aspect": "installation", "polarity": "NEGATIVE" },
+      { "aspect": "customer-service", "polarity": "NEGATIVE" }
+    ],
+    "style": ["medium", "typo", "exception-service-not-product"]
+  },
+  {
+    "corpus_id": "home-ro-006",
+    "product_slug": "aquafresh-ro-purifier",
+    "title": "Smooth setup in my case",
+    "text": "Seeing the other reviews I was nervous, but my installation was done the next day and the technician was polite and tidy. Water tastes good and the UV indicator is handy. If your area has good service coverage, go for it.",
+    "intended_stars": 4,
+    "intended_sentiment": "POSITIVE",
+    "aspects": [
+      { "aspect": "installation", "polarity": "POSITIVE" },
+      { "aspect": "performance", "polarity": "POSITIVE" }
+    ],
+    "style": ["medium", "idiom"]
+  }
+]
