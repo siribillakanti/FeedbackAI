@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--watch", "backend/src/server.js"],
+      "port": 5002,
+      "url": "http://localhost:5002"
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["frontend/node_modules/vite/bin/vite.js", "frontend"],
+      "port": 5174
+    }
+  ]
+}

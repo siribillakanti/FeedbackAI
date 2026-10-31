@@ -69,13 +69,21 @@ const CATEGORY_STATS_SQL = `
     ) rv ON rv.category_id = c.category_id`;
 
 // Only signed-in customers generate interaction rows. The insert selects from users, so a
-// token for a deleted account writes nothing instead of failing the page.
+// token for a deleted account writes nothing instead of failing the page. The same view or
+// search repeated within 30 minutes (a refresh, paging through results) is not logged again,
+// so it cannot inflate the recommendation signals (docs/02_ARCHITECTURE.md §5).
 async function logInteraction(user, interactionType, { productId = null, categoryId = null, searchQuery = null } = {}) {
   if (!user || user.role !== 'CUSTOMER') return;
   await pool.query(
     `INSERT INTO user_interactions (user_id, interaction_type, product_id, category_id, search_query, occurred_at)
-     SELECT user_id, ?, ?, ?, ?, UTC_TIMESTAMP() FROM users WHERE user_id = ?`,
-    [interactionType, productId, categoryId, searchQuery, user.id]
+     SELECT u.user_id, ?, ?, ?, ?, UTC_TIMESTAMP() FROM users u
+      WHERE u.user_id = ?
+        AND NOT EXISTS (
+          SELECT 1 FROM user_interactions ui
+           WHERE ui.user_id = u.user_id AND ui.interaction_type = ?
+             AND ui.product_id <=> ? AND ui.category_id <=> ? AND ui.search_query <=> ?
+             AND ui.occurred_at > UTC_TIMESTAMP() - INTERVAL 30 MINUTE)`,
+    [interactionType, productId, categoryId, searchQuery, user.id, interactionType, productId, categoryId, searchQuery]
   );
 }
 

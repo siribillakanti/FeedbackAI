@@ -1,84 +1,51 @@
-import React, { useState } from 'react';
-import Header from './components/Header';
-import CustomerPortal from './components/CustomerPortal';
-import WarehousePortal from './components/WarehousePortal';
-import OrderModal from './components/OrderModal';
+import { useEffect } from 'react'
+import { Route, Routes, useLocation } from 'react-router-dom'
+import { CustomerLayout, AuthLayout, AccountLayout, ProtectedRoute, GuestRoute } from './components/layout/Layouts'
+import Landing from './pages/customer/Landing'
+import Login from './pages/customer/Login'
+import Register from './pages/customer/Register'
+import Explore from './pages/customer/Explore'
+import Category from './pages/customer/Category'
+import ProductDetail from './pages/customer/ProductDetail'
+import WriteReview from './pages/customer/WriteReview'
+import Dashboard from './pages/customer/Dashboard'
+import MyFeedback from './pages/customer/MyFeedback'
+import Activity from './pages/customer/Activity'
+import Profile from './pages/customer/Profile'
+import AdminHome from './pages/admin/AdminHome'
+import NotFound from './pages/NotFound'
 
+// Route map: docs/02_ARCHITECTURE.md §8. Admin pages beyond the landing page arrive in Phase 10.
 export default function App() {
-  const [role, setRole] = useState('CUSTOMER'); // 'CUSTOMER' or 'WAREHOUSE'
-  const [cartItems, setCartItems] = useState([]);
-  const [isCartOpen, setIsCartOpen] = useState(false);
-  const [refreshSignal, setRefreshSignal] = useState(0);
-
-  const addToCart = (product) => {
-    setCartItems(prev => {
-      const existing = prev.find(item => item.product_id === product.product_id);
-      if (existing) {
-        return prev.map(item =>
-          item.product_id === product.product_id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        );
-      }
-      return [...prev, { ...product, quantity: 1 }];
-    });
-  };
-
-  const removeFromCart = (productId) => {
-    setCartItems(prev => prev.filter(item => item.product_id !== productId));
-  };
-
-  const updateQuantity = (productId, newQty) => {
-    if (newQty <= 0) {
-      removeFromCart(productId);
-      return;
-    }
-    setCartItems(prev => prev.map(item =>
-      item.product_id === productId ? { ...item, quantity: newQty } : item
-    ));
-  };
-
-  const clearCart = () => {
-    setCartItems([]);
-  };
-
-  const triggerRefresh = () => {
-    setRefreshSignal(prev => prev + 1);
-  };
-
-  const totalCartCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0) // newer Chromium returns a Promise here, so it must not be the effect's return value
+  }, [pathname])
 
   return (
-    <div className="app-container">
-      <Header
-        role={role}
-        setRole={setRole}
-        cartCount={totalCartCount}
-        onOpenCart={() => setIsCartOpen(true)}
-      />
-
-      <main className="main-content">
-        {role === 'CUSTOMER' ? (
-          <CustomerPortal
-            addToCart={addToCart}
-            cartItems={cartItems}
-            onOpenCart={() => setIsCartOpen(true)}
-          />
-        ) : (
-          <WarehousePortal refreshSignal={refreshSignal} />
-        )}
-      </main>
-
-      {isCartOpen && (
-        <OrderModal
-          cartItems={cartItems}
-          removeFromCart={removeFromCart}
-          updateQuantity={updateQuantity}
-          clearCart={clearCart}
-          onClose={() => setIsCartOpen(false)}
-          onOrderPlaced={triggerRefresh}
+    <Routes>
+      <Route element={<CustomerLayout />}>
+        <Route index element={<Landing />} />
+        <Route path="explore" element={<Explore />} />
+        <Route path="categories/:slug" element={<Category />} />
+        <Route path="products/:slug" element={<ProductDetail />} />
+        <Route
+          path="products/:slug/review"
+          element={<ProtectedRoute role="CUSTOMER"><WriteReview /></ProtectedRoute>}
         />
-      )}
-    </div>
-  );
+        <Route path="account" element={<ProtectedRoute role="CUSTOMER"><AccountLayout /></ProtectedRoute>}>
+          <Route index element={<Dashboard />} />
+          <Route path="feedback" element={<MyFeedback />} />
+          <Route path="activity" element={<Activity />} />
+          <Route path="profile" element={<Profile />} />
+        </Route>
+        <Route path="admin/*" element={<ProtectedRoute role="ADMIN"><AdminHome /></ProtectedRoute>} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+      <Route element={<AuthLayout />}>
+        <Route path="login" element={<GuestRoute><Login /></GuestRoute>} />
+        <Route path="register" element={<GuestRoute><Register /></GuestRoute>} />
+      </Route>
+    </Routes>
+  )
 }

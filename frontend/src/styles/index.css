@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tokens: docs/02_ARCHITECTURE.md §9, stored as RGB channels so Tailwind opacity
+   modifiers (border-negative/40) work. Use them as rgb(var(--name)) in plain CSS.
+   Every text/background pair used here meets WCAG AA.
+   --neutral and --mixed are below 4.5:1 on paper, so they are used for dots and bars only,
+   never for text. */
+:root {
+  --paper: 250 247 240; /* #faf7f0 */
+  --paper-2: 242 237 226; /* #f2ede2 */
+  --surface: 255 255 255; /* #ffffff */
+  --ink: 28 35 51; /* #1c2333 */
+  --ink-2: 74 81 99; /* #4a5163 */
+  --rule: 228 222 210; /* #e4ded2 */
+  --accent: 47 93 80; /* #2f5d50 */
+  --accent-hover: 38 77 66; /* #264d42 */
+  --accent-soft: 230 238 234; /* #e6eeea */
+  --positive: 59 122 87; /* #3b7a57 */
+  --neutral: 138 133 119; /* #8a8577 */
+  --negative: 181 69 47; /* #b5452f */
+  --negative-soft: 247 233 229; /* #f7e9e5 */
+  --mixed: 185 133 46; /* #b9852e */
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper font-sans text-base text-ink antialiased;
+    line-height: 1.625;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-ink;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: rgb(var(--accent-soft));
+  }
+}
+
+@layer components {
+  .page {
+    @apply mx-auto w-full max-w-page px-4 sm:px-6 lg:px-8;
+  }
+
+  .title-page {
+    @apply font-serif text-[28px] font-semibold leading-9 tracking-[-0.01em];
+  }
+
+  .title-hero {
+    @apply font-serif text-[32px] font-semibold leading-10 tracking-[-0.015em] sm:text-[36px] sm:leading-[44px];
+  }
+
+  .heading {
+    @apply text-lg font-semibold leading-[26px];
+  }
+
+  .meta {
+    @apply text-xs font-medium leading-4 tracking-[0.02em] text-ink-2;
+  }
+
+  .figure {
+    @apply font-mono tabular-nums;
+  }
+
+  .link {
+    @apply text-accent underline decoration-1 underline-offset-2 hover:text-accent-hover;
+  }
+
+  .panel {
+    @apply rounded border border-rule bg-surface;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

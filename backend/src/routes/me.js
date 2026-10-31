@@ -11,8 +11,8 @@ const { analyzeFeedback } = require('../services/sentiment');
 const router = express.Router();
 
 const USER_COLUMNS = 'user_id, full_name, email, role, status, created_at';
-const ACTIVITY_COLUMNS = `activity_type, product_id, product_name, category_id, category_name,
-  detail, occurred_at, source_table, source_id, is_demo`;
+const ACTIVITY_COLUMNS = `activity_type, product_id, product_name, product_slug, category_id, category_name,
+  category_slug, detail, occurred_at, source_table, source_id, is_demo`;
 const ACTIVITY_TYPES = ['PRODUCT_VIEW', 'CATEGORY_VIEW', 'SEARCH', 'RECOMMENDATION_CLICK', 'RATED', 'REVIEWED'];
 
 // One row per rating, with its review when there is one. Review-side fields come from

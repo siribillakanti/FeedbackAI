@@ -2,7 +2,7 @@
 
 **Scope:** presentation and demo build. See [docs/00_DECISIONS.md §0](docs/00_DECISIONS.md) for what was simplified.
 **Last updated:** 2026-10-31
-**Current phase:** Phase 6, Customer frontend (next). Phase 4 complete.
+**Current phase:** Phase 8, AI sentiment analysis (next). Customer frontend (Phase 6) complete.
 
 **Statuses:** NOT STARTED · IN PROGRESS · BLOCKED · COMPLETED. A task is COMPLETED only when its acceptance check was actually run and passed.
 **Priority:** P0 needed for the demo · P1 asked for in the brief · P2 nice to have
@@ -15,9 +15,9 @@
 | 2 | Architecture and ER diagram | 3 | 3 | |
 | 3 | Database schema and seed dataset | 7 | 7 | 83/83 constraint tests pass; seed runs are idempotent |
 | 4 | Backend APIs | 5 | 5 | Combined smoke check: 17/17 expected statuses |
-| 5 | Authentication and authorization | 3 | 1 | Auth API done; frontend parts pending |
-| 6 | Customer frontend | 6 | 0 | |
-| 7 | Feedback and rating management | 3 | 0 | |
+| 5 | Authentication and authorization | 3 | 3 | Frontend auth checked in the browser |
+| 6 | Customer frontend | 6 | 6 | All customer pages checked at desktop and 375 px |
+| 7 | Feedback and rating management | 3 | 2 | Customer side done; admin moderation page is with Phase 10 |
 | 8 | AI sentiment analysis | 4 | 0 | |
 | 9 | Personalised recommendations | 2 | 0 | |
 | 10 | Admin analytics and reports | 5 | 0 | |
@@ -25,7 +25,7 @@
 | 12 | Testing and debugging | 3 | 0 | |
 | 13 | Documentation and demonstration | 3 | 0 | |
 
-Estimated remaining effort: **about 40 hours**.
+Estimated remaining effort: **about 28 hours**.
 
 ---
 
@@ -73,26 +73,26 @@ Estimated remaining effort: **about 40 hours**.
 | ID | Task | Description | Pri | Status | Deps | Files | Acceptance |
 |---|---|---|---|---|---|---|---|
 | P5-T01 | Register and login API | bcrypt (cost from env), JWT for 8 hours, zod validation; suspended users cannot log in | P0 | COMPLETED | P4-T02 | `routes/auth.js` | Register 201 / duplicate 409, login 200 / 401, suspended 403, 72-byte password cap, constant-time unknown email (tested) |
-| P5-T02 | Frontend auth | AuthContext, token in localStorage, protected routes per role, logout | P0 | NOT STARTED | P5-T01, P6-T01 | `frontend/src/context/AuthContext.jsx` | A customer cannot open `/admin/*`; a refresh keeps the session |
-| P5-T03 | Login and register pages | Labelled forms with validation messages | P0 | NOT STARTED | P5-T02 | `pages/customer/Login.jsx`, `Register.jsx` | Errors are shown inline; register lets the user pick preferred categories |
+| P5-T02 | Frontend auth | AuthContext, token in localStorage, protected routes per role, logout | P0 | COMPLETED | P5-T01, P6-T01 | `frontend/src/context/AuthContext.jsx`, `lib/api.js`, `components/layout/Layouts.jsx` | Tested 2026-10-31: a customer opening `/admin/users` lands on `/account`, an admin opening `/account/*` lands on `/admin`, a guest goes to `/login?next=…`, a reload keeps the session, and a rejected token is cleared |
+| P5-T03 | Login and register pages | Labelled forms with validation messages | P0 | COMPLETED | P5-T02 | `pages/customer/Login.jsx`, `Register.jsx` | Tested: inline errors for empty fields, wrong password ("Incorrect email or password.") and duplicate email; register saves the chosen categories and follows `?next=` |
 
 ## PHASE 6 — Customer frontend
 
 | ID | Task | Description | Pri | Status | Deps | Files | Acceptance |
 |---|---|---|---|---|---|---|---|
-| P6-T01 | Frontend foundation | Tailwind, React Router, Chart.js; design tokens (ivory, ink, spruce; serif titles); shared UI components (Button, Input, Table, Modal, Toast, Empty, Error, Skeleton, StarRating, SentimentTag) | P0 | NOT STARTED | — | `frontend/` | `npm run build` passes; the layout shows no gradients or glass |
-| P6-T02 | Landing, Explore, Category | Landing page, product grid with filters and search, category pages | P0 | NOT STARTED | P6-T01, P4-T03 | `pages/customer/` | Filters work against the API; empty and loading states shown |
-| P6-T03 | Product details | Rating summary, star distribution, aspect highlights, reviews (demo reviews labelled) | P0 | NOT STARTED | P6-T02 | `pages/customer/ProductDetail.jsx` | Shows real data, with the Bayesian average explained |
-| P6-T04 | Customer dashboard and Activity | Recent activity, my stats, top recommendations | P1 | NOT STARTED | P4-T04 | `pages/customer/Dashboard.jsx`, `Activity.jsx` | Matches `v_user_activity` |
-| P6-T05 | Profile | Edit name and preferred categories | P1 | NOT STARTED | P4-T04 | `pages/customer/Profile.jsx` | Changes persist |
-| P6-T06 | Responsive pass | Layouts checked at phone width | P1 | NOT STARTED | P6-T02…T05 | — | No horizontal scroll at 375 px |
+| P6-T01 | Frontend foundation | Tailwind, React Router, Chart.js; design tokens (ivory, ink, spruce; serif titles); shared UI components (Button, Input, Table, Modal, Toast, Empty, Error, Skeleton, StarRating, SentimentTag) | P0 | COMPLETED | — | `frontend/` | `vite build` passes. Tokens as RGB channels in `styles/index.css` (mapped in `tailwind.config.js`), IBM Plex and Source Serif 4, no gradients or glass. Shared UI in `components/ui/`. Port 5174, proxy to 5002 |
+| P6-T02 | Landing, Explore, Category | Landing page, product grid with filters and search, category pages | P0 | COMPLETED | P6-T01, P4-T03 | `pages/customer/` | Category, rating, tag and text filters plus sort and page live in the URL; loading, empty ("No products match these filters") and error states shown (tested) |
+| P6-T03 | Product details | Rating summary, star distribution, aspect highlights, reviews (demo reviews labelled) | P0 | COMPLETED | P6-T02 | `pages/customer/ProductDetail.jsx` | Star histogram, weighted (Bayesian) score explained, aspect and sentiment panels with empty states until Phase 8 runs, paginated reviews with "Demo data" and "Analysis pending" labels, archived notice (tested) |
+| P6-T04 | Customer dashboard and Activity | Recent activity, my stats, top recommendations | P1 | COMPLETED | P4-T04 | `pages/customer/Dashboard.jsx`, `Activity.jsx` | Figures and timeline match `/api/me/summary` and `v_user_activity` (which now also returns product and category slugs). Recommendations are added in P9-T02 |
+| P6-T05 | Profile | Edit name and preferred categories | P1 | COMPLETED | P4-T04 | `pages/customer/Profile.jsx` | Name and preferred categories persist after a reload; a wrong current password shows "Incorrect password" (tested) |
+| P6-T06 | Responsive pass | Layouts checked at phone width | P1 | COMPLETED | P6-T02…T05 | — | At 375 px every customer page has `scrollWidth` 375 (no horizontal scroll); the header collapses into a menu |
 
 ## PHASE 7 — Feedback and rating management
 
 | ID | Task | Description | Pri | Status | Deps | Files | Acceptance |
 |---|---|---|---|---|---|---|---|
-| P7-T01 | Write review | Star rating, title, text with character limits; edit an existing review | P0 | NOT STARTED | P4-T04, P6-T03 | `pages/customer/WriteReview.jsx` | Submits; a duplicate becomes an edit; shows "Analysis pending" when AI is down |
-| P7-T02 | My feedback | List of my reviews with sentiment tags; edit or delete | P0 | NOT STARTED | P7-T01 | `pages/customer/MyFeedback.jsx` | Deleting asks for confirmation |
+| P7-T01 | Write review | Star rating, title, text with character limits; edit an existing review | P0 | COMPLETED | P4-T04, P6-T03 | `pages/customer/WriteReview.jsx` | Tested: rating required, body 10–4000 or empty, a second submit edits (prefilled), an existing text cannot be blanked, toast says analysis is pending while the AI service is down |
+| P7-T02 | My feedback | List of my reviews with sentiment tags; edit or delete | P0 | COMPLETED | P7-T01 | `pages/customer/MyFeedback.jsx` | Lists ratings with sentiment status and aspects; delete asks for confirmation (Escape cancels) and shows an empty state afterwards (tested) |
 | P7-T03 | Admin feedback management | Table with filters (sentiment, status, product, date) and hide/flag/publish actions | P0 | NOT STARTED | P4-T05 | `pages/admin/Feedback.jsx` | A moderation action writes an audit row via the trigger |
 
 ## PHASE 8 — AI sentiment analysis
