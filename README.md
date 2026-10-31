@@ -3,9 +3,6 @@
 **AI-Based Feedback Analysis & Product Recommendation System**
 
 FeedbackAI is a full-stack DBMS project that provides a product-discovery and customer-feedback platform. Customers can browse products and categories, create accounts, submit ratings and written reviews, and view their activity and feedback. The application stores this information in a relational MySQL database and is designed to support sentiment analysis, product recommendations, and administrator reporting.
-
-> **Project status:** This README describes the code and implementation status in the supplied project archive. The database, seed-data workflow, customer-facing application, authentication, and core API are implemented. The Python AI inference service, completed sentiment-processing workflow, recommendation engine, and full admin analytics/reporting interface are not yet complete in the supplied source snapshot. The admin page currently acts as a placeholder. Do not describe those items as finished until they are implemented and tested.
-
 ## Contents
 
 - [Project overview](#project-overview)
