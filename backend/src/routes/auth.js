@@ -50,8 +50,10 @@ router.post('/register', validate({
   let userId;
   try {
     userId = await withTransaction(async (conn) => {
+      // Registering signs the user in (a token is returned below), so it counts as a login.
       const [result] = await conn.query(
-        `INSERT INTO users (full_name, email, password_hash, role) VALUES (?, ?, ?, 'CUSTOMER')`,
+        `INSERT INTO users (full_name, email, password_hash, role, last_login_at)
+         VALUES (?, ?, ?, 'CUSTOMER', UTC_TIMESTAMP())`,
         [full_name, mail, passwordHash]
       );
       if (categoryIds.length) {
